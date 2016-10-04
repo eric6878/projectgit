@@ -1,6 +1,16 @@
 @charset "UTF-8";
 
-div {
+
+
+body{
+	background-image: url("../img/fleur-violette.jpg");
+	background-image: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+
+#trans{
     width: 100px;
     height: 100px;
     background: red;
@@ -10,4 +20,88 @@ div {
 
 div:hover {
     width: 300px;
+}
+
+form{
+	border: 2px dashed grey;
+	width: 550px;
+	height: 650px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+#conteneur{
+	width: 600px;
+	height: 700px;
+	background-color:#441632;
+	margin: 0 auto;
+	
+
+}
+
+h1{
+	
+	padding-bottom: 30px;
+	padding-left: 15px;
+}
+
+h1:hover{
+	content: "Contact us !";
+	color: #E789C5;
+}
+
+
+#name, #email, #message{
+	width: 400px;
+	height: 40px;
+	background-color: #FFF9E1;
+	color: black; 
+	margin-top: 30px;
+	display: block;
+	border-radius: 10px;
+	font-family: Times New Roman;
+	font-size: 18px;
+	margin-left: 15px;
+	padding-left: 5px;
+	border: none;
+
+}
+#message:hover{
+	background-color: #EDAFCC;
+}
+
+#name:hover{
+	background-color: #EDAFCC;
+}
+
+#email:hover{
+	background-color: #EDAFCC;
+}
+
+#message{
+	height: 110px;
+	width: 400px;
+	border-radius: 5px;
+
+}
+
+#bouton{
+	float: right;
+	width: 200px;
+	height: 40px;
+	margin-top: 100px;
+	border-radius: 25px;
+	background-color: #EDAFCC;
+	margin-right: 20px;
+	border: none;
+	font-family: Times New Roman;
+	font-size: 18px;
+	transition: width 1s;
+
+}
+
+#bouton:hover{
+	color: #441632;
+	background-color: #FFFAE7;
+	width: 250px;
 }
