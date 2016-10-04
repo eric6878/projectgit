@@ -9,18 +9,18 @@ body{
 	height: 100%;
 }
 
-
 #trans{
-    width: 100px;
-    height: 100px;
-    background: red;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
-}
-
-div:hover {
-    width: 300px;
-}
+			width: 500px; 
+			height: 500px; 
+			background: red; 
+			animation : rectangle 2s linear infinite alternate; 
+		}
+		
+		@keyframes rectangle{
+			0%{background: red; }
+			50%{background: blue; margin-left: 50%; margin-top: 0;}
+			100%{background: yellow; margin-top: 50%; margin-left: 50%; border-radius: 50%;}
+		}
 
 form{
 	border: 2px dashed grey;
@@ -105,3 +105,9 @@ h1:hover{
 	background-color: #FFFAE7;
 	width: 250px;
 }
+
+
+
+
+
+
