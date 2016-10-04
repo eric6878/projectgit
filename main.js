@@ -1,4 +1,4 @@
 window.onload = function(){
-	alert()
+	alert(Welcome on ProjectGit !!!)
 };
 
