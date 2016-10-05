@@ -14,7 +14,7 @@ body{
 *****************"BIENVENUE SUR NOTRE SITE"*****************
 ***********************************************************/
 
-#container{
+#contentBox{
 	width: 600px;
 	height: 400px;
 	border: 2px solid #FFF;
@@ -35,7 +35,7 @@ body{
 	border-color: #D738E2 transparent transparent transparent;
 	border-width: 20px;
 	margin: 0 auto;
-	transition: width height 1s;
+	transition: width 1s, height 1s, border 1s, transform 1s;
 }
 
 #btn:hover{
@@ -44,14 +44,12 @@ body{
 	background-color: purple;
 	text-align: center;
 	overflow: hidden;
-	z-index: 1;
 }
 
 ul{
 	overflow: hidden;
 	text-align: center;
 	line-height: 30px;
-	margin-top: 50px;
 }
 
 li{
@@ -92,7 +90,6 @@ form{
 	margin: 0 auto;
 	padding-top: 10px;
 	position: fixed;
-	z-index: 2;
 }
 
 #conteneur{
