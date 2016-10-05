@@ -44,6 +44,7 @@ body{
 	background-color: purple;
 	text-align: center;
 	overflow: hidden;
+	z-index: 1;
 }
 
 ul{
@@ -90,6 +91,8 @@ form{
 	height: 650px;
 	margin: 0 auto;
 	padding-top: 10px;
+	position: fixed;
+	z-index: 2;
 }
 
 #conteneur{
