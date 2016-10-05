@@ -9,17 +9,39 @@
 	<body>
 		<div id="conteneur">
 			
+			<div id="contentBox">
+			
+				<div id="title">
+					<h2>Bienvenue sur le projectgit</h2>
+				</div>
+				
+				<div id="btn">	
+					<ul>
+						<li>Toute l'équipe du PoleS associée à notre projet<br /> 
+						vous souhaite la bienvenue sur notre site !!!</li>
+					</ul>
+
+					<ul>
+						<li>Afin de rejoindre notre communauté<br />
+						veuillez vous enregistrer grâce au formulaire çi-après...</li>	
+					</ul>
+				</div>
+			
+			</div>
+			
 			<form>
 				<h1>Contactez-nous</h1>
-				<input required type="name" name="prenom" placeholder="Name" id="name">
+				<input required type="name" name="prenom" placeholder="Name" id="name" />
 
-				<input required type="email" name="email" placeholder="Mail ID" id="email">
+				<input required type="email" name="email" placeholder="Mail ID" id="email" pattern="[a-zA-Z0-9._%-+]+@[a-z0-9.-]+\.[a-z.]{2,5}$" />
 
 				<textarea  required cols="25" rows="4" style="resize:none" id="message"> Message</textarea>
 
-				<input type="submit" value="Send" id="bouton" >
+				<input type="submit" value="Send" id="bouton" />
 			</form>
+		
 		</div>
+		
 		<div id="trans"></div>
 	</body>
 </html>
